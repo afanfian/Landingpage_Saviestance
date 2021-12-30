@@ -15,12 +15,12 @@ nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 1rem 6rem 1rem 0;
+    margin: 1rem 5rem 1rem 0;
 }
 
 ul li {
     list-style: none;
-    margin-left: 2rem;
+    margin-left: 3rem;
 }
 
 li a {
@@ -29,6 +29,8 @@ li a {
     light-height: 1.6;
     font-size: 1em;
     color: #fff;
+    /* position: relative; */
+}
 
 .logo {
     height: 3rem;
