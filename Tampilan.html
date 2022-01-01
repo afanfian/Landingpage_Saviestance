@@ -4,20 +4,44 @@
         <title>Saviestance</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" href="Style.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/Style.css">
     </head>
     <body>
         <nav>
+            <img src="img/Logo Saviestance.png" alt="Logo Saviestance" width="100px" style="margin-left: 9%;">
             <ul>
                 <li><a href="#Home" class="nav-li">Home</a></li>
                 <li><a href="#About" class="nav-li">About</a></li>
-                <li><a href="#IncludeApp" class="nav-li">IncludeApp</a></li>
+                <li><a href="#IncludeApp" class="nav-li">Include App</a></li>
                 <li><a href="#Team" class="nav-li">Team</a></li>
                 <li><a href="#Contact" class="nav-li">Contact</a></li>
             </ul>
         </nav>
-        <section class="container">
-            <h4>Halo Kesehatanmu Rek!</h4>
+        <!-- Home -->
+        <section class="home" id="Home">
+            <div class="row saviestance">
+                <div class="col-md-6" style="border-radius: 25px; background: #38B6FF; width: 30%; box-shadow: 3px 3px 3px 3px grey;" >
+                    <p style="font-size: 3em;">
+                        Saviestance ?
+                    </p>
+                    <p style="font-size: 2em;">
+                        Safety Driving Assistance
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <img src="img/AAP_6112LR.JPG" alt="Logo Saviestance" width="300px">
+                </div>
+            </div>
         </section>
+        <!-- About -->
+        <!--Awal AOS sebelum js kita-->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+        AOS.init();
+        </script>   
+        <!--Akhir AOS sebelum js kita-->
     </body>
 </html>
