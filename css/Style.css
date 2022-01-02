@@ -101,20 +101,37 @@ li a {
 .name{
     font-size: 1.5em;
     text-align: center;
+    font-weight: bold;
 }
-.tugas{
+.jabatan{
     font-size: 1.3em;
     text-align: center;
-    line-height: 1%;
+    font-weight: bolder;
+}
+.tugas{
+    font-size: 1.1em;
+    text-align: justify;
+    font-weight: lighter;
+}
+.tugasraul{
+    font-size: 1.1em;
+    text-align: justify;
+    font-weight: lighter;
+    padding-bottom: 27px;
 }
 .linkedin{
-    margin-left: 40%;
+    margin-left: 35%;
     font-size: 20px;
 }
 .github{
     margin-left: 5%;
     font-size: 20px;
     color: black;
+}
+.instagram{
+    margin-left: 5%;
+    font-size: 20px;
+    color: red;
 }
 /* Responsive Navbar*/
 @media only screen and (max-width: 600px) {
