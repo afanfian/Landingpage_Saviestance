@@ -88,7 +88,7 @@ li a {
 .judulabout{
     text-align: center;
     font-weight: bold;
-    font-size: 2em;
+    font-size: 1.5em;
     margin-top: 6%;
 }
 
@@ -110,23 +110,21 @@ li a {
     text-align: center;
     justify-content: center;
     font-weight: bold;
-    border-radius: 15px; 
     background: #38B6FF; 
     color: white;
     width:80%; 
     height: 7%;
     margin-left: 10%;
     padding-top: 8px;
-    box-shadow: 2px 2px 2px 2px grey
 }
 .tugas{
     font-size: 1.1em;
-    text-align: justify;
+    text-align: center;
     font-weight: lighter;
 }
 .tugasraul{
     font-size: 1.1em;
-    text-align: justify;
+    text-align: center;
     font-weight: lighter;
     padding-bottom: 27px;
 }
