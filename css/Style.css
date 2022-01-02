@@ -92,9 +92,30 @@ li a {
     margin-top: 5%;
 }
 
-
-
-
+/* Team */
+.member{
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bold;
+}
+.name{
+    font-size: 1.5em;
+    text-align: center;
+}
+.tugas{
+    font-size: 1.3em;
+    text-align: center;
+    line-height: 1%;
+}
+.linkedin{
+    margin-left: 40%;
+    font-size: 20px;
+}
+.github{
+    margin-left: 5%;
+    font-size: 20px;
+    color: black;
+}
 /* Responsive Navbar*/
 @media only screen and (max-width: 600px) {
     ul li {
