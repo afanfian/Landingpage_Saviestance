@@ -59,6 +59,9 @@ li a {
 }
 
 /* Home */
+.home{
+    padding-bottom: 5%;
+}
 .logo{
     text-align: center;
     padding-top: 10%;
@@ -84,9 +87,9 @@ li a {
 /* About */
 .judulabout{
     text-align: center;
-    margin-top: 30%;
     font-weight: bold;
     font-size: 2em;
+    margin-top: 5%;
 }
 
 
