@@ -22,7 +22,7 @@ nav ul {
 
 ul li {
     list-style: none;
-    margin-left: 3rem;
+    margin-left: 2rem;
 }
 
 li a {
@@ -67,18 +67,26 @@ li a {
     font-weight: bold;
 }
 .saviestance{
+    color: black;
+    padding-top: 5%;
+    margin-left: 5%;
+    text-align: left;
+    justify-content: left;
+}
+.download{
     color: white;
     padding-top: 5%;
-    margin-left: 10%;
-    text-align: center;
+    margin-left: 5%;
+    text-align: left;
     justify-content: left;
-    font-weight: bold;
 }
 
 /* About */
-.about{
+.judulabout{
     text-align: center;
     margin-top: 30%;
+    font-weight: bold;
+    font-size: 2em;
 }
 
 
