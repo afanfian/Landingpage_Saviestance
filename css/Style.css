@@ -29,7 +29,7 @@ li a {
     text-decoration: none;
     font-weight: bold;
     light-height: 1.6;
-    font-size: 1em;
+    font-size: 1.2em;
     color: #38B6FF;
     /* position: relative; */
 }
@@ -57,29 +57,34 @@ li a {
     margin-right: auto;
     margin-left: 4rem;
 }
+
 /* Home */
 .logo{
     text-align: center;
     padding-top: 10%;
-    margin-left: 60%;
+    margin-left: 70%;
     color: white;
     font-weight: bold;
 }
 .saviestance{
     color: white;
     padding-top: 5%;
-    margin-left: 20%;
+    margin-left: 10%;
     text-align: center;
     justify-content: left;
     font-weight: bold;
-    font-family: "Poppins";
 }
+
 /* About */
 .about{
     text-align: center;
-    margin-top: 2%;
+    margin-top: 30%;
 }
-/* Responsive */
+
+
+
+
+/* Responsive Navbar*/
 @media only screen and (max-width: 600px) {
     ul li {
         margin-left: 1rem;
