@@ -58,16 +58,27 @@ li a {
     margin-left: 4rem;
 }
 /* Home */
+.logo{
+    text-align: center;
+    padding-top: 10%;
+    margin-left: 60%;
+    color: white;
+    font-weight: bold;
+}
 .saviestance{
     color: white;
-    padding-top: 10%;
+    padding-top: 5%;
+    margin-left: 20%;
     text-align: center;
-    justify-content: center;
+    justify-content: left;
     font-weight: bold;
     font-family: "Poppins";
 }
-
-
+/* About */
+.about{
+    text-align: center;
+    margin-top: 2%;
+}
 /* Responsive */
 @media only screen and (max-width: 600px) {
     ul li {
