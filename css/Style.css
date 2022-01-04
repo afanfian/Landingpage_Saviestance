@@ -163,3 +163,91 @@ li a {
         margin-left: 1rem;
     }
 }
+
+/* Ahmed wkwk */
+section#Prototipe{
+    padding-top: 1vh;
+}
+section#Prototipe .prototipe-container{
+    position: relative;
+    padding: 10vh 10vw;
+    padding-top: 5vh;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    /* border: 2px solid blue; */
+    overflow: hidden;
+}
+.prototipe-container .prototipe-groupingbox{
+    display: none;
+    /* border: 2px solid red; */
+}
+.prototipe-container .prototipe-groupingbox.active{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* border: 2px solid red; */
+}
+.prototipe-groupingbox .prototipe-imgbox{
+    position: relative;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    /* border: 2px solid green; */
+}
+.prototipe-imgbox>img{
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 0px 0px 10px #38B6FF, -0px -0px 10px #38B6FF;
+    transition: 0.3s ease;
+    transition-property: transform;
+}
+.prototipe-imgbox>img:hover{
+    transform: scale(1.05);
+}
+.prototipe-imgbox>h3{
+    text-align: center;
+    padding: 20px;
+    font-size: 1em;
+}
+.prototipe-slider{
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+}
+.prototipe-slider .slider-nav{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.prototipe-slider .slider-nav .slider-nav-btn{
+    width: 15px;
+    height: 15px;
+    background: #38B6FF;
+    opacity: 0.5;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px #003757;
+    transition: 0.3s ease;
+}
+.prototipe-slider .slider-nav .slider-nav-btn:not(:last-child){
+    margin-right: 20px;
+}
+.prototipe-slider .slider-nav .slider-nav-btn:hover{
+    transform: scale(1.2);
+    opacity: 1.0;
+}
+.prototipe-slider .slider-nav .slider-nav-btn.active{
+    background: #000;
+    opacity: 1.0;
+    transform: scale(1.5);
+}

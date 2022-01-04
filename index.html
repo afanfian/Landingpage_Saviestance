@@ -60,7 +60,7 @@
             <div class="container-lg py-4">
                 <div class="row judulabout">
                     <div class="col-md-12">
-                        <p>Saviestance apa sih?</p>
+                        <p>Saviestance itu Apa Sih?</p>
                     </div>
                 </div>
                 <div class="row">
@@ -85,14 +85,143 @@
         <!-- Include App -->
         <section id="Prototipe">
             <div class="container-lg py-4">
-                <div class="row">
+                <div class="row judulabout">
                    <div class="col-md-12">
-                    
-                      </div>
+                      <p>
+                        Prototipe Saviestance
+                      </p>
                    </div>
                 </div>
             </div>
+
+            <!-- gambar Prototipe -->
+            <div class="prototipe-container">
+              <!-- ke 0 onboarding -->
+              <div class="prototipe-groupingbox active">
+                <div class="prototipe-imgbox">
+                  <img src="./img/prototype/ob_1.png" alt="onboard1">
+                  <h3>Onboarding #1</h3>
+                </div>
+                <div class="prototipe-imgbox">
+                  <img src="./img/prototype/ob_2.png" alt="onboard2">
+                  <h3>Onboarding #2</h3>
+                </div>
+                <div class="prototipe-imgbox">
+                  <img src="./img/prototype/ob_3.png" alt="onboard3">
+                  <h3>Onboarding #3</h3>
+                </div>
+              </div>
+              <!-- ke 1 -->
+              <div class="prototipe-groupingbox">
+                <div class="prototipe-imgbox">
+                  <img src="./img/prototype/0_welcome.png" alt="welcome-menu">
+                  <h3>Welcome Menu</h3>
+                </div>
+                <div class="prototipe-imgbox">
+                  <img src="./img/prototype/0_login.png" alt="Login">
+                  <h3>Login</h3>
+                </div>
+                <div class="prototipe-imgbox">
+                  <img src="./img/prototype/0_register.png" alt="Register">
+                  <h3>Register</h3>
+                </div>
+              </div>
+              <!-- ke 2 -->
+              <div class="prototipe-groupingbox">
+                <div class="prototipe-imgbox">
+                  <img src="./img/prototype/1_dash1.png" alt="dashboard1">
+                  <h3>Dashboard#1</h3>
+                </div>
+                <div class="prototipe-imgbox">
+                  <img src="./img/prototype/1_dash2.png" alt="dashboard2">
+                  <h3>Dashboard#2</h3>
+                </div>
+                <div class="prototipe-imgbox">
+                  <img src="./img/prototype/1_settings.png" alt="Register">
+                  <h3>Settings</h3>
+                </div>
+              </div>
+              <!-- ke 3 -->
+              <div class="prototipe-groupingbox">
+                <div class="prototipe-imgbox">
+                  <img src="./img/prototype/2_trackmenu.png" alt="track-menu">
+                  <h3>Track Menu</h3>
+                </div>
+                <div class="prototipe-imgbox">
+                  <img src="./img/prototype/2_drivingcheckup.png" alt="driving-checkup">
+                  <h3>Driving Check Up</h3>
+                </div>
+                <div class="prototipe-imgbox">
+                  <img src="./img/prototype/2_drivingcheckupresult.png" alt="driving-checkup-result">
+                  <h3>Driving Check Up Result</h3>
+                </div>
+              </div>
+              <!-- ke 4 -->
+              <div class="prototipe-groupingbox">
+                <div class="prototipe-imgbox">
+                  <img src="./img/prototype/3_drivingmode-lobby.png" alt="drivingmode-lobby">
+                  <h3>Driving Mode Lobby</h3>
+                </div>
+                <div class="prototipe-imgbox">
+                  <img src="./img/prototype/3_drivingmode-start.png" alt="drivingmode-start">
+                  <h3>Driving Mode Start</h3>
+                </div>
+                <div class="prototipe-imgbox">
+                  <img src="./img/prototype/3_driving_checkup_result1.png" alt="driving-checkup-result">
+                  <h3>Driving Check Up Result</h3>
+                </div>
+                <div class="prototipe-imgbox">
+                  <img src="./img/prototype/3_driving_checkup_result2.png" alt="driving-checkup-result">
+                  <h3>Driving Check Up Result</h3>
+                </div>
+              </div>
+              <!-- ke 5 -->
+              <div class="prototipe-groupingbox">
+                <div class="prototipe-imgbox">
+                  <img src="./img/prototype/4_insight.png" alt="insight">
+                  <h3>Insight</h3>
+                </div>
+                <div class="prototipe-imgbox">
+                  <img src="./img/prototype/4_insight_article.png" alt="insight-article">
+                  <h3>Insight - Article</h3>
+                </div>
+              </div>
+              <!-- para slider -->
+              <div class="prototipe-slider">
+                <div class="slider-nav">
+                  <div class="slider-nav-btn active"></div>
+                  <div class="slider-nav-btn"></div>
+                  <div class="slider-nav-btn"></div>
+                  <div class="slider-nav-btn"></div>
+                  <div class="slider-nav-btn"></div>
+                  <div class="slider-nav-btn"></div>
+                </div>
+              </div>
+            </div>
         </section>
+        <script type="text/javascript">
+
+        const btns = document.querySelectorAll(".slider-nav-btn");
+        const slides = document.querySelectorAll(".prototipe-groupingbox");
+
+        var sliderNav = function(manual){
+          btns.forEach((btn) =>{
+            btn.classList.remove("active");
+          });
+          slides.forEach((slide) =>{
+            slide.classList.remove("active");
+          });
+
+          btns[manual].classList.add("active");
+          slides[manual].classList.add("active");
+        }
+        btns.forEach((btn, i) => {
+          btn.addEventListener("click", () =>{
+            sliderNav(i);
+          });
+
+        });
+        </script>
         <!-- Team -->
         <section id="Team">
             <div class="container-lg py-4">
