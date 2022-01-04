@@ -91,79 +91,6 @@ li a {
     font-size: 1.5em;
     margin-top: 6%;
 }
-
-/* Team */
-.member{
-    font-size: 1.5em;
-    text-align: center;
-    font-weight: bold;
-    padding-top: 7%;
-}
-.name{
-    font-size: 1.5em;
-    text-align: center;
-    font-weight: bold;
-    padding-top: 10px;
-}
-.jabatan{
-    font-size: 1.3em;
-    text-align: center;
-    justify-content: center;
-    font-weight: bold;
-    background: #38B6FF; 
-    color: white;
-    width:80%; 
-    height: 7%;
-    margin-left: 10%;
-    padding-top: 8px;
-}
-.tugas{
-    font-size: 1.1em;
-    text-align: center;
-    font-weight: lighter;
-}
-.tugasraul{
-    font-size: 1.1em;
-    text-align: center;
-    font-weight: lighter;
-    padding-bottom: 27px;
-}
-.linkedin{
-    margin-left: 35%;
-    font-size: 20px;
-}
-.github{
-    margin-left: 5%;
-    font-size: 20px;
-    color: black;
-}
-.instagram{
-    margin-left: 5%;
-    font-size: 20px;
-    color: red;
-}
-
-
-/* Contact */
-.contact{
-    text-align: center;
-    font-size: 1.5em;
-    font-weight: bold;
-}
-/* Footer */
-.footer{
-    background-color: #38B6FF;
-    color: white;
-    font-size: 1.2em;
-    font-weight: bold;
-}
-/* Responsive Navbar*/
-@media only screen and (max-width: 600px) {
-    ul li {
-        margin-left: 1rem;
-    }
-}
-
 /* Ahmed wkwk */
 section#Prototipe{
     padding-top: 1vh;
@@ -250,4 +177,75 @@ section#Prototipe .prototipe-container{
     background: #000;
     opacity: 1.0;
     transform: scale(1.5);
+}
+/* Team */
+.member{
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 7%;
+}
+.name{
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.jabatan{
+    font-size: 1.3em;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    background: #38B6FF; 
+    color: white;
+    width:80%; 
+    height: 7%;
+    margin-left: 10%;
+    padding-top: 8px;
+}
+.tugas{
+    font-size: 1.1em;
+    text-align: center;
+    font-weight: lighter;
+}
+.tugasraul{
+    font-size: 1.1em;
+    text-align: center;
+    font-weight: lighter;
+    padding-bottom: 27px;
+}
+.linkedin{
+    margin-left: 35%;
+    font-size: 20px;
+}
+.github{
+    margin-left: 5%;
+    font-size: 20px;
+    color: black;
+}
+.instagram{
+    margin-left: 5%;
+    font-size: 20px;
+    color: red;
+}
+
+
+/* Contact */
+.contact{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+/* Footer */
+.footer{
+    background-color: #38B6FF;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+/* Responsive Navbar*/
+@media only screen and (max-width: 600px) {
+    ul li {
+        margin-left: 1rem;
+    }
 }
